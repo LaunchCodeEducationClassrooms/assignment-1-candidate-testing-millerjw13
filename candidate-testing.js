@@ -38,7 +38,7 @@ console.log("\nCandidate Name: " + candidateName)
      for (let i = 0; i < questions.length; i++) {
        console.log(`${i+1}) ${questions[i]}\nYour Answer: ${candidateAnswersArray[i]}\nCorrect Answer: ${correctAnswers[i]}\n`)
         
-       if (correctAnswers[i].toLowerCase() == candidateAnswersArray[i].toLowerCase()) {
+       if (correctAnswers[i] == candidateAnswersArray[i]) {
         correctAnswerCnt +=1} 
   //console.log(correctAnswerCnt)
 }
